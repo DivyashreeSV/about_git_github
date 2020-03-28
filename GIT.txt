@@ -1,0 +1,47 @@
+What is GIT?
+
+Its a Version control system(VCS) for tracking changes in computer files.
+
+-> Distributed/Decentralied version control
+-> Coordinates work between multiple developers
+-> Who made what changes and when 
+-> Revert back at any time
+-> Local and remote repository(like GitHub, Bitbucket )
+
+Concepta of GIT
+
+-> Keeps track of code history
+-> Takes "Snapshop" of your files
+-> you can decide when to take snapshot by making a commi
+-> you can visit snapshot at anytime
+-> you can stage files before committing
+
+Basic commands
+
+$ git init -->initialize local Git repository(.git folder i,e repository)
+$ git add <file> --> add files to stagging area/index(before commit). Can add multiple files before commit.
+$ git status --> check status of working tree, show difference between woking tree and stagging area/index
+$ git commit --> Commit changes to index
+$ git push --> push to remote repository(GitHub)
+$ git pull --> pull latest changes from remote repository
+$ git clone --> clone repository into current folder
+$ git rm --cached <file name> to remove file from stagging area/index
+
+$ touch index.html --> creates new index.html in respective folder
+$ touch app.js --> create new app.js in respective folder
+
+Installing GIT in Windows
+
+http://git-scm.com/download/win
+
+provide name and email address to Git
+
+$ git config --global user.name 'Divyashree S V'
+$ git config --global user.email 'divyashreesv@gmail.com'
+
+
+$ git add *.html --> add all html files into index
+$ git add . --> add every file to index
+
+change file and get git status it shows modified file in that case we need to $ git add . again
+
