@@ -45,3 +45,13 @@ $ git add . --> add every file to index
 
 change file and get git status it shows modified file in that case we need to $ git add . again
 
+Steps too commit
+
+1)
+--> $ git commit
+
+-->	press i --> to insert text
+	esc :wq and enter to commit 
+
+or 
+2)
