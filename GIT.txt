@@ -29,6 +29,7 @@ $ git rm --cached <file name> to remove file from stagging area/index
 
 $ touch index.html --> creates new index.html in respective folder
 $ touch app.js --> create new app.js in respective folder
+$ clear --> clears console
 
 Installing GIT in Windows
 
@@ -55,3 +56,17 @@ Steps too commit
 
 or 
 2)
+$ git commit -m 'msg to commit'
+
+Ignore files to commit 
+
+$ touch .gitignore --> creates .gitignore text file add file name here to ignore commit
+
+example
+log.txt
+/dir2
+*.txt
+
+Branches
+
+$ git branch mybranch
