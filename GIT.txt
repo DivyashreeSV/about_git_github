@@ -29,7 +29,7 @@ $ git rm --cached <file name> to remove file from stagging area/index
 
 $ touch index.html --> creates new index.html in respective folder
 $ touch app.js --> create new app.js in respective folder
-$ clear --> clears console
+$ clear --> used to clear console
 
 Installing GIT in Windows
 
@@ -56,17 +56,39 @@ Steps too commit
 
 or 
 2)
-$ git commit -m 'msg to commit'
 
-Ignore files to commit 
+$ git commit -m 'Comments while commiting'
 
-$ touch .gitignore --> creates .gitignore text file add file name here to ignore commit
+$ touch .gitignore -->.gitignore.txt is created, add file name to this to ignore commit in specifies location
 
-example
+sample 
 log.txt
 /dir2
 *.txt
 
-Branches
+Create new branch to work on it temporarily
 
 $ git branch mybranch
+$ git status
+$ git commit -m 'commit chnages'
+$ git checkout mybranch --> switch to mybranch
+
+changes done here 
+
+$ touch new.html
+$ git commit -m 'new chnages'
+
+$ git checkout master --> switched back to master, changes done in mybranch doesnt reflect here
+
+$ git merge mybranch --> merge branch and master
+
+Push an existing repository from command line
+$ git remote --> lists remote repositories 
+$ git remote add origin https://github.com/DivyashreeSV/about_git_github.git --> 
+Login to git hub using credentials
+$ git push –u origin master
+To update changes
+$ git add .
+$ git commit –m ‘update ’
+
+
